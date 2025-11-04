@@ -1,1 +1,1 @@
-export const BaaseUrl ='http://localhost:3000'
+export const BaaseUrl ='https://crud-app-be-jgbf.onrender.com'
