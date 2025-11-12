@@ -82,13 +82,13 @@ const Todo = () => {
             onClick={() => onEditClick(eachData)}
             className="btn btn-warning "
           >
-            Edit <i className="bg-warning" class="fa-solid fa-pen"></i>
+            Edit
           </button>
           <button
             onClick={() => onDeleteClick(eachData.id)}
             className="btn btn-danger"
           >
-            Delete <i className="color-danger" class="fa-solid fa-trash"></i>
+            Delete
           </button>
         </div>
       ))}
@@ -107,10 +107,10 @@ const Todo = () => {
           />
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary">
             Close
           </Button>
-          <Button variant="primary" onClick={onUpdateClick}>
+          <Button variant="primary" >
             Save Changes
           </Button>
         </Modal.Footer>
